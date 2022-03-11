@@ -42,6 +42,6 @@ import { Event } from "../structures/Event";
 
 export default new Event("ready", () => {
   // pretty much you got every event as an option, and automatically get the argument of the event callback.
-  console.log(`The bot is online online.`);
+  console.log(`The bot is online.`);
 });
 ```
