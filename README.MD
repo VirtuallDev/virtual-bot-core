@@ -38,7 +38,7 @@ export default new Command({
 **Event Example**
 
 ```ts
-import { Event } from "../structures/Event";
+import { Event } from "../Classes/Event";
 
 export default new Event("ready", () => {
   // pretty much you got every event as an option, and automatically get the argument of the event callback.
